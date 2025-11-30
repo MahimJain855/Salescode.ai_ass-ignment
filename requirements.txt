@@ -1,0 +1,43 @@
+# LiveKit Intelligent Interruption Handler Requirements
+
+# Core LiveKit SDK
+livekit-agents>=0.8.0
+livekit-api>=0.4.0
+livekit-rtc>=0.9.0
+
+# Speech Recognition (STT)
+deepgram-sdk>=3.0.0
+openai-whisper>=20230314
+
+# Text-to-Speech (TTS)
+elevenlabs>=0.2.0
+google-cloud-texttospeech>=2.14.0
+
+# LLM Integration
+openai>=1.0.0
+anthropic>=0.7.0
+
+# Voice Activity Detection
+silero-vad>=4.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+aiohttp>=3.9.0
+asyncio>=3.4.3
+
+# Logging and Monitoring
+loguru>=0.7.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.11.0
+
+# Type Checking
+mypy>=1.5.0
+types-aiofiles>=23.0.0
+
+# Code Quality
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.12.0
